@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{179fb7cd-8cdd-40f4-960c-8ab107d4a6bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\AC_Core">
+      <UniqueIdentifier>{82d1d26b-6e0b-4ceb-a894-24084062ef0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\AC_Core\AC_Input">
+      <UniqueIdentifier>{2459d9a8-f51f-4a71-9167-c56e38cce7f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\AC_Core\AC_Maths">
+      <UniqueIdentifier>{2108de8f-e20f-4c50-a1f0-2533c03141de}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="AC_engine.cpp">
+      <Filter>src\AC_Core</Filter>
+    </ClCompile>
+    <ClCompile Include="AC_TextureManager.cpp">
+      <Filter>src\AC_Core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AC_Transform.h">
+      <Filter>src\AC_Core\AC_Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="AC_Vector2D.h">
+      <Filter>src\AC_Core\AC_Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="AC_IObject.h">
+      <Filter>src\AC_Core</Filter>
+    </ClInclude>
+    <ClInclude Include="AC_GameObject.h">
+      <Filter>src\AC_Core</Filter>
+    </ClInclude>
+    <ClInclude Include="AC_engine.h">
+      <Filter>src\AC_Core</Filter>
+    </ClInclude>
+    <ClInclude Include="AC_TextureManager.h">
+      <Filter>src\AC_Core</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
