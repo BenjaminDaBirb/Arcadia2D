@@ -142,17 +142,19 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="AC_engine.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="AC_TextureManager.cpp" />
+    <ClCompile Include="src\AC_Core\AC_EntityManager.cpp" />
+    <ClCompile Include="src\AC_Core\AC_engine.cpp" />
+    <ClCompile Include="src\AC_Core\main.cpp" />
+    <ClCompile Include="src\AC_Core\AC_TextureManager.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AC_engine.h" />
-    <ClInclude Include="AC_GameObject.h" />
-    <ClInclude Include="AC_IObject.h" />
-    <ClInclude Include="AC_TextureManager.h" />
-    <ClInclude Include="AC_Transform.h" />
-    <ClInclude Include="AC_Vector2D.h" />
+    <ClInclude Include="src\AC_Core\AC_EntityManager.h" />
+    <ClInclude Include="src\AC_Core\AC_engine.h" />
+    <ClInclude Include="src\AC_Core\AC_GameObject.h" />
+    <ClInclude Include="src\AC_Core\AC_IObject.h" />
+    <ClInclude Include="src\AC_Core\AC_TextureManager.h" />
+    <ClInclude Include="src\AC_Core\AC_Transform.h" />
+    <ClInclude Include="src\AC_Core\AC_Vector2D.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

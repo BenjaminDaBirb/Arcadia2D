@@ -18,32 +18,34 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="AC_engine.cpp">
+    <ClCompile Include="src\AC_Core\main.cpp" />
+    <ClCompile Include="src\AC_Core\AC_engine.cpp">
       <Filter>src\AC_Core</Filter>
     </ClCompile>
-    <ClCompile Include="AC_TextureManager.cpp">
+    <ClCompile Include="src\AC_Core\AC_TextureManager.cpp">
       <Filter>src\AC_Core</Filter>
     </ClCompile>
+    <ClCompile Include="src\AC_Core\AC_EntityManager.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AC_Transform.h">
+    <ClInclude Include="src\AC_Core\AC_Transform.h">
       <Filter>src\AC_Core\AC_Maths</Filter>
     </ClInclude>
-    <ClInclude Include="AC_Vector2D.h">
+    <ClInclude Include="src\AC_Core\AC_Vector2D.h">
       <Filter>src\AC_Core\AC_Maths</Filter>
     </ClInclude>
-    <ClInclude Include="AC_IObject.h">
+    <ClInclude Include="src\AC_Core\AC_IObject.h">
       <Filter>src\AC_Core</Filter>
     </ClInclude>
-    <ClInclude Include="AC_GameObject.h">
+    <ClInclude Include="src\AC_Core\AC_GameObject.h">
       <Filter>src\AC_Core</Filter>
     </ClInclude>
-    <ClInclude Include="AC_engine.h">
+    <ClInclude Include="src\AC_Core\AC_engine.h">
       <Filter>src\AC_Core</Filter>
     </ClInclude>
-    <ClInclude Include="AC_TextureManager.h">
+    <ClInclude Include="src\AC_Core\AC_TextureManager.h">
       <Filter>src\AC_Core</Filter>
     </ClInclude>
+    <ClInclude Include="src\AC_Core\AC_EntityManager.h" />
   </ItemGroup>
 </Project>
