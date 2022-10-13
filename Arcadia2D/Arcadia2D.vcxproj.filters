@@ -7,45 +7,30 @@
     <Filter Include="src">
       <UniqueIdentifier>{179fb7cd-8cdd-40f4-960c-8ab107d4a6bc}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src\AC_Core">
-      <UniqueIdentifier>{82d1d26b-6e0b-4ceb-a894-24084062ef0d}</UniqueIdentifier>
+    <Filter Include="src\acEngine">
+      <UniqueIdentifier>{7bad8617-78ba-4c4e-af96-2341e9ea42b6}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src\AC_Core\AC_Input">
-      <UniqueIdentifier>{2459d9a8-f51f-4a71-9167-c56e38cce7f0}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="src\AC_Core\AC_Maths">
-      <UniqueIdentifier>{2108de8f-e20f-4c50-a1f0-2533c03141de}</UniqueIdentifier>
+    <Filter Include="src\acGraphics">
+      <UniqueIdentifier>{1f3ba7c5-9845-44d8-9c17-712cd32bfe89}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\AC_Core\main.cpp" />
-    <ClCompile Include="src\AC_Core\AC_engine.cpp">
-      <Filter>src\AC_Core</Filter>
+    <ClCompile Include="src\ac_engine.cpp">
+      <Filter>src\acEngine</Filter>
     </ClCompile>
-    <ClCompile Include="src\AC_Core\AC_TextureManager.cpp">
-      <Filter>src\AC_Core</Filter>
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\TextureManager.cpp">
+      <Filter>src\acGraphics</Filter>
     </ClCompile>
-    <ClCompile Include="src\AC_Core\AC_EntityManager.cpp" />
+    <ClCompile Include="src\InputManager.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\AC_Core\AC_Transform.h">
-      <Filter>src\AC_Core\AC_Maths</Filter>
+    <ClInclude Include="src\ac_engine.h">
+      <Filter>src\acEngine</Filter>
     </ClInclude>
-    <ClInclude Include="src\AC_Core\AC_Vector2D.h">
-      <Filter>src\AC_Core\AC_Maths</Filter>
+    <ClInclude Include="src\TextureManager.h">
+      <Filter>src\acGraphics</Filter>
     </ClInclude>
-    <ClInclude Include="src\AC_Core\AC_IObject.h">
-      <Filter>src\AC_Core</Filter>
-    </ClInclude>
-    <ClInclude Include="src\AC_Core\AC_GameObject.h">
-      <Filter>src\AC_Core</Filter>
-    </ClInclude>
-    <ClInclude Include="src\AC_Core\AC_engine.h">
-      <Filter>src\AC_Core</Filter>
-    </ClInclude>
-    <ClInclude Include="src\AC_Core\AC_TextureManager.h">
-      <Filter>src\AC_Core</Filter>
-    </ClInclude>
-    <ClInclude Include="src\AC_Core\AC_EntityManager.h" />
+    <ClInclude Include="src\InputManager.h" />
   </ItemGroup>
 </Project>

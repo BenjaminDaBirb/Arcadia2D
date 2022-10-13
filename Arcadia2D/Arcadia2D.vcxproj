@@ -72,6 +72,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -142,19 +143,15 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\AC_Core\AC_EntityManager.cpp" />
-    <ClCompile Include="src\AC_Core\AC_engine.cpp" />
-    <ClCompile Include="src\AC_Core\main.cpp" />
-    <ClCompile Include="src\AC_Core\AC_TextureManager.cpp" />
+    <ClCompile Include="src\InputManager.cpp" />
+    <ClCompile Include="src\ac_engine.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\TextureManager.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\AC_Core\AC_EntityManager.h" />
-    <ClInclude Include="src\AC_Core\AC_engine.h" />
-    <ClInclude Include="src\AC_Core\AC_GameObject.h" />
-    <ClInclude Include="src\AC_Core\AC_IObject.h" />
-    <ClInclude Include="src\AC_Core\AC_TextureManager.h" />
-    <ClInclude Include="src\AC_Core\AC_Transform.h" />
-    <ClInclude Include="src\AC_Core\AC_Vector2D.h" />
+    <ClInclude Include="src\InputManager.h" />
+    <ClInclude Include="src\ac_engine.h" />
+    <ClInclude Include="src\TextureManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
