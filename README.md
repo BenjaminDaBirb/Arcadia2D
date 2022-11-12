@@ -1,5 +1,5 @@
 # Arcadia2D
-***Development Is On Hold For Now!
+**Development Is On Hold For Now!**
 
 A C++ and Simple Directmedia Layer (SDL for short) 2-Dimensional Engine, designed for properitary use by Ludens Workshop Interactive.
 
