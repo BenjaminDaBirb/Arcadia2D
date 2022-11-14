@@ -6,4 +6,4 @@ A C++ and Simple Directmedia Layer (SDL for short) 2-Dimensional Engine, designe
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
 ## Contributions!
-We are now looking for contributers to the engine's source code, We are open to any contribution through Pull Requests!
+The best you can do is fork this repository and make pull requests through the forked version whenever you have made changes in the source code.
