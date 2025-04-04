@@ -10,4 +10,4 @@
 ## Contributions!
 The best you can do is fork this repository and make pull requests through the forked version whenever you make changes in the source code.
 
-2 years later - This section sounds pretty much stupid, doesn't it? Well yeah, that's me 2 years ago posting the source code of a software which I claim to be "proprietary" on an open-source coding and software platform, and then asking users not to fork it for their personal motives as it is personal and properietary, ironic.
+2 years later - This section sounds pretty much stupid, doesn't it? Well yeah, that's me 2 years ago posting the source code of a software which I claim to be "proprietary", on an open-source coding and software platform, and then asking users not to fork it for their personal motives as it is personal and properietary, ironic.
